@@ -1,9 +1,0 @@
-Il faut en premier lieu créer une base de données que j'ai créer personnellement dans MySQL Workbench, j'ai nommé la base de données Todolist et j'ai remplacer les paramètres de connexion à la base de données dans le fichier .env
-
-Il faut ensuite faire un php artisan migrate:fresh pour initialiser toutes les tables et
-vérifier ensuite que les tables du projet ont bien été créer dans notre base de données Todolist
-
-Attention, les tâches sont personnelles et sont attitrés à l'utilisateur qui l'a créer.
-
-Pour les catégories ces dernières sont cependant communes donc si un utilisateur en créer une
-elle sera visible par tout autres utilisateurs

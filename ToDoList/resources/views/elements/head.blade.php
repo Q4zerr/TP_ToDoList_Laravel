@@ -10,6 +10,9 @@
             <title>Laravel TP</title>
         @endif
 
+        <!-- Link with Favicon -->
+        <link rel="icon" href="{{ asset('img/laravel.ico') }}" type="image/x-icon"/>
+
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
