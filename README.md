@@ -33,3 +33,7 @@ Enregistrez le fichier `.env` pour qu'il soit pris en compte.
 Maintenant, si vous rafraîchissez la page, vous pouvez accéder librement à l'application et utiliser ses fonctionnalités.
 
 **Note :** Les tâches sont personnelles et sont attribuées à l'utilisateur qui les a créées. Cependant, les catégories sont communes. Donc, si un utilisateur crée une catégorie, elle sera visible par tous les autres utilisateurs.
+
+## Copyright
+
+Projet réalisé par : Tanguy AVET (WebTech N3)
