@@ -1,0 +1,88 @@
+.nav-link-account{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+}
+.nav-link i{
+    font-size: 1rem;
+}
+.form-login,
+.form-register,
+.form-addTask,
+.form-modifyTask{
+    margin: 2rem 0 1rem 0;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.form-login button,
+.form-register button,
+.form-addTask button,
+.form-modifyTask button{
+    width: 100%;
+    background-color: #0b5ed7;
+}
+.form-addTask .form-group,
+.form-addTask .form-group input,
+.form-addTask .form-group select,
+.form-modifyTask .form-group,
+.form-modifyTask .form-group input,
+.form-modifyTask .form-group select {
+    width: 100%;
+}
+.link-register p a,
+.link-login p a{
+    color: #0b5ed7;
+}
+/*Taches*/
+.card-body .card-separator{
+    width: 80%;
+    border: 1px solid #404040;
+    margin: 0.75rem 0;
+}
+.task-info .task-title,
+.category-info .category-title{
+    font-size: 1.5rem;
+}
+.task-info .card-title,
+.category-info .card-title,
+.task-info .card-text,
+.category-info .card-text{
+    font-size: 1.15rem;
+}
+.category-info .card-text{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.category-info .card-text .card-color{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+/*FullCalendar*/
+#calendrier{
+    margin: 3rem 0 1rem 0;
+    width: 90%;
+    max-height: 500px;
+}
+.fc-event {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    white-space: normal;
+    margin: 0;
+    padding: 0.5rem 0;
+}
